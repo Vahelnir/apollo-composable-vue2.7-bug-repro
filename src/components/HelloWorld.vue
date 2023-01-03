@@ -12,7 +12,8 @@ const { loading: somethingLoading } =
 const { loading: longSomethingLoading } =
   useQuery(GET_LONG_SOMETHING);
 
-watch(loading, () => console.log("global loading changed"));
+watch(loading, () => console.log("component loading changed"));
+watch(globalLoading, () => console.log("global loading changed"));
 watch(somethingLoading, () => console.log("something loading changed"));
 watch(longSomethingLoading, () =>
   console.log("long something loading changed")
