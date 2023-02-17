@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@apollo/client': ^3.7.3
   '@vitejs/plugin-vue2': ^2.2.0
-  '@vue/apollo-composable': 4.0.0-beta.1
+  '@vue/apollo-composable': 4.0.0-beta.2
   graphql: ^16.6.0
   mock-apollo-client: ^1.2.1
   typescript: ^4.9.3
@@ -15,7 +15,7 @@ specifiers:
 dependencies:
   '@apollo/client': 3.7.3_graphql@16.6.0
   '@vitejs/plugin-vue2': 2.2.0_vite@3.2.5+vue@2.7.14
-  '@vue/apollo-composable': 4.0.0-beta.1_dhu7qu2vdd6kf5r7376d46ds4a
+  '@vue/apollo-composable': 4.0.0-beta.2_dhu7qu2vdd6kf5r7376d46ds4a
   graphql: 16.6.0
   mock-apollo-client: 1.2.1_@apollo+client@3.7.3
   vue: 2.7.14
@@ -159,8 +159,8 @@ packages:
       '@volar/vue-language-core': 1.0.19
     dev: true
 
-  /@vue/apollo-composable/4.0.0-beta.1_dhu7qu2vdd6kf5r7376d46ds4a:
-    resolution: {integrity: sha512-WjyePUFYft7dZMNrO63DuP5bsl1AO1SKhfy688r2HXlyrCQAxvfRXOiPqnPzhmRn7kyWTKfrwwhkFJfnSq7vyA==}
+  /@vue/apollo-composable/4.0.0-beta.2_dhu7qu2vdd6kf5r7376d46ds4a:
+    resolution: {integrity: sha512-SGZ1uklEldjG9UTMQnHyr9N4+C4D6hZXn3LDkDtpMVLAQksh30sqapSOFkEowOBVWyc/7f/JiCGADOhvxCWRxw==}
     peerDependencies:
       '@apollo/client': ^3.4.13
       '@vue/composition-api': ^1.0.0
